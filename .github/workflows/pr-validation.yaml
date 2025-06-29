@@ -25,7 +25,10 @@ jobs:
           node-version: '18'
       - run: npm install
       - run: npm install stylelint stylelint-config-standard --save-dev
-      - run: echo '{ "extends": ["stylelint-config-standard"] }' > .stylelintrc.json
+      - run: |
+          echo '{
+            "extends": ["stylelint-config-standard"]
+          }' > .stylelintrc.json
       - run: npx stylelint "styles/**/*.css"
 
   build:
