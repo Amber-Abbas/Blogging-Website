@@ -25,6 +25,7 @@ jobs:
           node-version: '18'
       - run: npm install
       - run: npm install stylelint stylelint-config-standard --save-dev
+      - run: echo '{ "extends": ["stylelint-config-standard"] }' > .stylelintrc.json
       - run: npx stylelint "styles/**/*.css"
 
   build:
@@ -32,5 +33,8 @@ jobs:
     needs: [lint-html, lint-css]
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
       - run: npm install
-      - run: npx parcel build src/home.html src/blog.html src/contact.html
+      - run: npm run build
