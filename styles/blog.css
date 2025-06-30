@@ -1,0 +1,22 @@
+.blog-container {
+  padding: 2rem;
+  background-color: rgb(0 0 0 / 10%);
+  color: #222;
+}
+
+.blog-title {
+  font-size: 2rem;
+  color: #0057b7;
+  margin-bottom: 1rem;
+}
+
+.blog-post {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+
+/* Add more selectors here with empty line before each */
+
