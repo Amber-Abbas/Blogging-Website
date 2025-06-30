@@ -16,10 +16,10 @@ header {
 .contact-container {
   max-width: 600px;
   margin: 2rem auto;
-  background: white;
+  background-color: white;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
 .contact-form {
