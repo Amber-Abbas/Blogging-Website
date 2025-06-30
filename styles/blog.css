@@ -1,6 +1,6 @@
 .blog-container {
   padding: 2rem;
-  background-color: rgb(0 0 0 / 10%);
+  background-color: rgb(0 0 0 / 10%);  /* changed here */
   color: #222;
 }
 
@@ -17,6 +17,4 @@
   border-radius: 5px;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
 }
-
-/* Add more selectors here with empty line before each */
 
