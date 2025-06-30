@@ -1,6 +1,10 @@
 .blog-container {
   padding: 2rem;
+<<<<<<< HEAD
   background-color: rgb(0 0 0 / 10%);  /* changed here */
+=======
+  background-color: rgb(0 0 0 / 10%);
+>>>>>>> 256fae8d31440e2af30594181d3514ecacbd6af7
   color: #222;
 }
 
@@ -15,5 +19,13 @@
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 5px;
+<<<<<<< HEAD
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);  /* changed here */
 }
+=======
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+
+/* Add more selectors here with empty line before each */
+
+>>>>>>> 256fae8d31440e2af30594181d3514ecacbd6af7
